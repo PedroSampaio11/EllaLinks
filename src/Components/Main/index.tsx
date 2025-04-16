@@ -1,5 +1,28 @@
-import { MainContainer } from "./styles";
+import { LinksSection } from "../Links";
+import {
+  Design,
+  MainContainer,
+  PrincipalContainer,
+  Sub,
+  Title,
+  TitleContainer,
+} from "./styles";
 
 export const Main: React.FC = () => {
-  return <MainContainer  data-aos="fade-left" data-aos-duration="500">Main</MainContainer>;
+  return (
+    <MainContainer>
+      <PrincipalContainer>
+        <TitleContainer>
+          <Title>Bem-vinda à Ella by essence</Title>
+          <Sub>
+            Elegância, cuidado e essência nos
+            <strong> links abaixo</strong>
+          </Sub>
+        </TitleContainer>
+
+        <Design src="/images/design4.png" />
+      </PrincipalContainer>
+      <LinksSection/>
+    </MainContainer>
+  );
 };

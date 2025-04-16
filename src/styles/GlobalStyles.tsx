@@ -5,6 +5,10 @@ html,
 body {
     padding: 0;
     margin: 0;
+    height: 100%;
+    font-size: 10px;
+    overflow-x: hidden;
+    background: linear-gradient(164deg,rgba(255, 210, 196, 1) 0%, rgba(255, 251, 250, 1) 100%);
 }
 
 a {
