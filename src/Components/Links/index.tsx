@@ -4,9 +4,9 @@ export const LinksSection: React.FC = () => {
   return (
     <Container data-aos="zoom-in">
       <Links>
-        <Link>Fale Conosco</Link>
-        <Link>Catálogo de Produtos</Link>
-        <Link>Saiba Mais</Link>
+        <Link>Fale <strong>Conosco</strong></Link>
+        <Link>Catálogo de  <strong>Produtos</strong></Link>
+        <Link>Saiba <strong>Mais</strong></Link>
       </Links>
       <Image src="/images/flower.png"/>
     </Container>
@@ -35,15 +35,18 @@ const Link = styled.button`
   width: 70%;
   padding: 7rem 1rem;
   text-align: center;
-  font-size: 3.4rem;
-  letter-spacing: -1px;
+  font-size: 4rem;
+  letter-spacing: -2px;
   border-radius: 22px;
   cursor: pointer;
   border: none;
   color: #FF0084;
   box-shadow: 0 0 22px 2px rgba(220, 4, 105, 0.555);
   transition: 0.4s ease-in-out;
-  font-weight: 700;
+  font-weight: 400;
+  strong{
+    font-weight: 700;
+  }
   &:hover{
     transform: scale(1.04);
     box-shadow: 0 0 22px 2px rgba(220, 4, 105, 0.77);
