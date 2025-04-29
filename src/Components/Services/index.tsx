@@ -3,9 +3,9 @@ import { Container, Prod, ProdContainer } from "./styles";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 
-const animation = { duration: 14000, easing: (t: number) => t };
+const animation = { duration: 15000, easing: (t: number) => t };
 
-export const ProductsSection: React.FC = () => {
+export const ServicesSection: React.FC = () => {
   const [sliderRef] = useKeenSlider<HTMLDivElement>({
     loop: true,
     renderMode: "performance",
@@ -35,13 +35,13 @@ export const ProductsSection: React.FC = () => {
       },
     },
     created(s) {
-      s.moveToIdx(1, true, animation);
+      s.moveToIdx(-1, true, animation);
     },
     updated(s) {
-      s.moveToIdx(s.track.details.abs + 1, true, animation);
+      s.moveToIdx(s.track.details.abs - 1, true, animation);
     },
     animationEnded(s) {
-      s.moveToIdx(s.track.details.abs + 1, true, animation);
+      s.moveToIdx(s.track.details.abs - 1, true, animation);
     },
   });
 

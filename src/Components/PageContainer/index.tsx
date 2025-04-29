@@ -8,4 +8,7 @@ export const PageContainer = styled.div`
   font-family: 'Onest';
   height: 100%;
   color: ${(props) => props.theme.colors.pink};
+  @media screen and (max-width: 420px){
+    padding: 1rem 3rem;
+  }
 `;

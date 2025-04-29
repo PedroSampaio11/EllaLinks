@@ -3,11 +3,8 @@ import styled from "styled-components";
 export const Container = styled.section`
   height: auto;
   width: 100%;
-  margin-top: 7rem;
+  margin-top: 4rem;
   padding: 3rem 0;
-  @media screen and (max-width: 1024px) {
-  margin-top: 6rem;
-}
 `;
 export const ProdContainer = styled.div`
   border-radius: 8px;

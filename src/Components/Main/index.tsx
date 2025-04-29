@@ -1,5 +1,6 @@
 import { LinksSection } from "../Links";
 import { ProductsSection } from "../Products";
+import { ServicesSection } from "../Services";
 import {
   Design,
   MainContainer,
@@ -14,7 +15,6 @@ export const Main: React.FC = () => {
     <MainContainer>
       <PrincipalContainer>
         <TitleContainer>
-          
           <Title>Bem-vinda à Ella by essence</Title>
           <Sub>
             Elegância, cuidado e essência nos
@@ -24,8 +24,9 @@ export const Main: React.FC = () => {
 
         <Design src="/images/design4.png" />
       </PrincipalContainer>
-      <LinksSection/>
-      <ProductsSection/>
+      <LinksSection />
+      <ProductsSection />
+      <ServicesSection />
     </MainContainer>
   );
 };

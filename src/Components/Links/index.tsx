@@ -18,6 +18,9 @@ const Container = styled.section`
   width: 100%;
   position: relative;
   font-family: 'Onest';
+  @media screen and (max-width: 1024px) {
+  padding: 2rem 0;
+}
 `;
 
 const Links = styled.div`
@@ -29,6 +32,12 @@ const Links = styled.div`
   align-items: center;
   gap: 2.4rem;
   margin-top: 488px;
+  @media screen and (max-width: 508px) {
+  margin-top: 255px;
+}
+@media screen and (min-width: 509px) and (max-width: 1024px) {
+  margin-top: 333px;
+}
 `;
 const Link = styled.button`
   all: unset;
@@ -52,6 +61,12 @@ const Link = styled.button`
     box-shadow: 0 0 22px 2px rgba(220, 4, 105, 0.77);
     filter: brightness(1.1);
   }
+
+  @media screen and (max-width: 1024px) {
+  width: 100%;
+  padding: 5rem 1.1rem;
+  font-size: 3rem;
+}
 `;
 
 const Image = styled.img`

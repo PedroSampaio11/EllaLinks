@@ -16,4 +16,7 @@ export const Logo = styled.img`
   height: 100%;
   width: auto;
   object-fit: cover;
+  @media screen and (max-width: 1024px) {
+  height: 77%;
+}
 `;
