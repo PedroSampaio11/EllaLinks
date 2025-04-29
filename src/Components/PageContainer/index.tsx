@@ -9,6 +9,6 @@ export const PageContainer = styled.div`
   height: 100%;
   color: ${(props) => props.theme.colors.pink};
   @media screen and (max-width: 420px){
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
   }
 `;
