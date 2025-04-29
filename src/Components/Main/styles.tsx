@@ -78,7 +78,7 @@ export const Design = styled.img`
 
   @media screen and (min-width: 300px) and (max-width: 400px) {
   height: 333px;
-  top: 122px;
+  top: 127px;
 }
 
 @media screen and (min-width: 399px) and (max-width: 420px) {
