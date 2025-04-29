@@ -77,8 +77,8 @@ export const Design = styled.img`
   pointer-events: none;
 
   @media screen and (min-width: 300px) and (max-width: 400px) {
-  height: 322px;
-  top: 177px;
+  height: 333px;
+  top: 133px;
 }
 
 @media screen and (min-width: 399px) and (max-width: 420px) {
