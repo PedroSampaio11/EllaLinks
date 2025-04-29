@@ -69,7 +69,7 @@ export const Design = styled.img`
   height: 999px;
   width: auto;
   object-fit: cover;
-  top: -44px;
+  top: 11px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -78,7 +78,7 @@ export const Design = styled.img`
 
   @media screen and (min-width: 300px) and (max-width: 400px) {
   height: 333px;
-  top: 133px;
+  top: 177px;
 }
 
 @media screen and (min-width: 399px) and (max-width: 420px) {
@@ -88,7 +88,7 @@ export const Design = styled.img`
 
 @media screen and (min-width: 421px) and (max-width: 608px) {
   height: 400px;
-  top: 122px;
+  top: 111px;
 }
 @media screen and (min-width: 609px) and (max-width: 1024px) {
   height: 500px;

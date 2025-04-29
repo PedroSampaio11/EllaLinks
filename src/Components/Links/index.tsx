@@ -74,7 +74,8 @@ const Image = styled.img`
   position: absolute;
   object-fit: cover;
   height: 999px;
-  top: 447px;
+  top: 505px;
+  right: 77px;
   opacity: .99;
   pointer-events: none;
   animation: flower 17s ease-in-out infinite alternate;
@@ -107,7 +108,7 @@ const Image = styled.img`
 }
 @media screen and (min-width: 609px) and (max-width: 1024px) {
   height: 777px;
-  top: 144px;
+  top: 222px;
   left: -177px;
 }
 `;
