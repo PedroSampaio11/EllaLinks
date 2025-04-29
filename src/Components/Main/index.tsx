@@ -22,7 +22,7 @@ export const Main: React.FC = () => {
           </Sub>
         </TitleContainer>
 
-        <Design src="/images/design4.png" />
+        <Design src="/images/design.png" />
       </PrincipalContainer>
       <LinksSection />
       <ProductsSection />
