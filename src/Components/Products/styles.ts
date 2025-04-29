@@ -15,11 +15,12 @@ export const ProdContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 277px;
+  width: 333px;
 `;
 export const Prod = styled.img`
-  height: 250px;
-  width: auto;
-  object-fit: cover;
-  padding: 2rem 0;
+height: 100%;
+width: 100%;
+object-fit: cover;
 `;
 

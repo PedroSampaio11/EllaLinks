@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Prod, ProdContainer } from "./styles";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
-
+import { IMAGES } from "../constants/images";
 const animation = { duration: 7000, easing: (t: number) => t }; // Duração reduzida
 
 export const ProductsSection: React.FC = () => {
@@ -11,7 +11,7 @@ export const ProductsSection: React.FC = () => {
     renderMode: "performance",
     drag: true,
     slides: {
-      perView: 2.5,
+      perView: 4,
       spacing: 24, // Diminuído para evitar o "empurrão"
     },
     breakpoints: {
@@ -47,18 +47,14 @@ export const ProductsSection: React.FC = () => {
 
   return (
     <Container ref={sliderRef} className="keen-slider">
-      <ProdContainer className="keen-slider__slide">
-        <Prod src="icons/Ella.svg" />
-      </ProdContainer>
-      <ProdContainer className="keen-slider__slide">
-        <Prod src="icons/Ella.svg" />
-      </ProdContainer>
-      <ProdContainer className="keen-slider__slide">
-        <Prod src="icons/Ella.svg" />
-      </ProdContainer>
-      <ProdContainer className="keen-slider__slide">
-        <Prod src="icons/Ella.svg" />
-      </ProdContainer>
+      {IMAGES.map(
+        (image , index ) => (
+          <ProdContainer className="keen-slider__slide" key={index}>
+          <Prod src={image.src} alt={image.alt} />
+        </ProdContainer>
+        )
+      )}
+
     </Container>
   );
 };
