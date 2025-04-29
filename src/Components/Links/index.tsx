@@ -2,7 +2,8 @@ import React from "react";
 import styled from "styled-components";
 export const LinksSection: React.FC = () => {
   return (
-    <Container data-aos="zoom-in">
+    // data-aos="zoom-in"
+    <Container > 
       <Links>
         <Link>Fale <strong>Conosco</strong></Link>
         <Link>Catálogo de  <strong>Produtos</strong></Link>
@@ -75,7 +76,6 @@ const Image = styled.img`
   height: 999px;
   top: 447px;
   opacity: .99;
-  right: -222px;
   pointer-events: none;
   animation: flower 17s ease-in-out infinite alternate;
 
@@ -86,5 +86,28 @@ const Image = styled.img`
   100% {
     transform: translateY(80px) rotate(2deg);
   }
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  height: 444px;
+  top: 200px;
+  left: -111px;
+}
+
+@media screen and (min-width: 399px) and (max-width: 420px) {
+  height: 555px;
+  top: 200px;
+  left: -177px;
+}
+
+@media screen and (min-width: 421px) and (max-width: 608px) {
+  height: 666px;
+  top: 177px;
+  left: -177px;
+}
+@media screen and (min-width: 609px) and (max-width: 1024px) {
+  height: 777px;
+  top: 144px;
+  left: -177px;
 }
 `;

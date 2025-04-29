@@ -77,24 +77,20 @@ export const Design = styled.img`
   pointer-events: none;
 
   @media screen and (min-width: 300px) and (max-width: 400px) {
-  border: 1px solid;
   height: 322px;
   top: 177px;
 }
 
 @media screen and (min-width: 399px) and (max-width: 420px) {
-  border: 1px solid;
   height: 333px;
   top: 122px;
 }
 
 @media screen and (min-width: 421px) and (max-width: 608px) {
-  border: 1px solid;
-  height: 420px;
+  height: 400px;
   top: 122px;
 }
 @media screen and (min-width: 609px) and (max-width: 1024px) {
-  border: 1px solid;
   height: 500px;
   top: 144px;
 }
