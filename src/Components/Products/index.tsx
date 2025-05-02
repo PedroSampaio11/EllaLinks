@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Prod, ProdContainer } from "./styles";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
-import { OTHERIMAGES } from "../constants/otherimages";
+import { OTHERIMAGES } from "../constants/otherImages";
 const animation = { duration: 8000, easing: (t: number) => t }; // Duração reduzida
 
 export const ProductsSection: React.FC = () => {
