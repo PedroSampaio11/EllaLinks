@@ -6,13 +6,13 @@ export const MainContainer = styled.div`
   align-items: center;
   box-sizing: border-box;  
   position: relative;
-  @media screen and (max-width: 420px){
-
-  }
+  padding: 0;
+  padding: 0 2rem;
 `;
 export const PrincipalContainer = styled.div`
   display: flex;
   align-items: center;
+  width: 100%;
 `;
 
 export const TitleContainer = styled.div`
@@ -49,13 +49,13 @@ export const Sub = styled.p`
     font-weight: 700;
   }
   @media screen and (max-width: 420px){
-    font-size: 2.7rem;
+    font-size: 2.6rem;
     width: 100%;
-    padding: 1rem .5rem 0 0;
+    padding: 1rem 0;
   }
   
 @media screen and (min-width: 421px) and (max-width: 608px) {
-  font-size: 2.8rem;
+  font-size: 2.7rem;
   width: 100%;
 }
 @media screen and (min-width: 609px) and (max-width: 1024px) {
@@ -78,17 +78,17 @@ export const Design = styled.img`
 
   @media screen and (min-width: 300px) and (max-width: 400px) {
   height: 333px;
-  top: 127px;
+  top: 188px;
 }
 
-@media screen and (min-width: 399px) and (max-width: 420px) {
-  height: 333px;
-  top: 122px;
+@media screen and (min-width: 401px) and (max-width: 420px) {
+  height: 345px;
+  top: 177px;
 }
 
 @media screen and (min-width: 421px) and (max-width: 608px) {
-  height: 377px;
-  top: 117px;
+  height: 371px;
+  top: 177px;
 }
 @media screen and (min-width: 609px) and (max-width: 1024px) {
   height: 500px;

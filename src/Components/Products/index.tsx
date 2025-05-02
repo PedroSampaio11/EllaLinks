@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Prod, ProdContainer } from "./styles";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
-import { IMAGES } from "../constants/images";
-const animation = { duration: 7000, easing: (t: number) => t }; // Duração reduzida
+import { OTHERIMAGES } from "../constants/otherimages";
+const animation = { duration: 8000, easing: (t: number) => t }; // Duração reduzida
 
 export const ProductsSection: React.FC = () => {
   const [sliderRef] = useKeenSlider<HTMLDivElement>({
@@ -12,7 +12,7 @@ export const ProductsSection: React.FC = () => {
     drag: true,
     slides: {
       perView: 4,
-      spacing: 24, // Diminuído para evitar o "empurrão"
+      spacing: 22, // Diminuído para evitar o "empurrão"
     },
     breakpoints: {
       "(max-width: 1024px)": {
@@ -47,14 +47,11 @@ export const ProductsSection: React.FC = () => {
 
   return (
     <Container ref={sliderRef} className="keen-slider">
-      {IMAGES.map(
-        (image , index ) => (
-          <ProdContainer className="keen-slider__slide" key={index}>
+      {OTHERIMAGES.map((image, index) => (
+        <ProdContainer className="keen-slider__slide" key={index}>
           <Prod src={image.src} alt={image.alt} />
         </ProdContainer>
-        )
-      )}
-
+      ))}
     </Container>
   );
 };

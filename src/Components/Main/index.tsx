@@ -1,3 +1,4 @@
+import { BannerSection } from "../Banner";
 import { LinksSection } from "../Links";
 import { ProductsSection } from "../Products";
 import { ServicesSection } from "../Services";
@@ -25,8 +26,9 @@ export const Main: React.FC = () => {
         <Design src="/images/design12.png" />
       </PrincipalContainer>
       <LinksSection />
-      <ProductsSection />
       <ServicesSection />
+      <ProductsSection />
+      <BannerSection/>
     </MainContainer>
   );
 };
