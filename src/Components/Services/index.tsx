@@ -29,8 +29,8 @@ export const ServicesSection: React.FC = () => {
       },
       "(max-width: 480px)": {
         slides: {
-          perView: 1.1,
-          spacing: 12, // Ajustado para um espaçamento menor
+          perView: 1,
+          spacing: 14, // Ajustado para um espaçamento menor
         },
       },
     },

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FooterContainer = styled.div`
   display: flex;
   width: 100%;
-  padding: 1rem 0 .4rem 0;
+  padding: 2rem .5rem .4rem .5rem;
   margin-top: 11rem;
   border-radius: 14px 14px 0 0;
   background-color: #DC0469;
@@ -40,15 +40,15 @@ export const Copys = styled.div`
 export const Copy = styled.p`
   margin: 0;
   font-size: 1.55rem;
-  font-weight: 500;
+  font-weight: 400;
   @media screen and (max-width: 500px) {
-    font-size: 1.4rem;
+    font-size: 1.33rem;
   }
 `;
 export const LinkFour = styled.a`
   margin: 0;
   font-size: 1.44rem;
-  font-weight: 500;
+  font-weight: 400;
   transition: all .3s ease;
   &:hover{
     filter: brightness(1.1);
@@ -56,7 +56,7 @@ export const LinkFour = styled.a`
     cursor: pointer;
   }
   @media screen and (max-width: 500px) {
-    font-size: 1.33rem;
+    font-size: 1.3rem;
   }
 `;
 export const Icon = styled.img`
@@ -71,7 +71,7 @@ export const Icon = styled.img`
     transform: translateY(-2px);
   }
   @media screen and (max-width: 500px) {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2.3rem;
+    height: 2.3rem;
   }
 `;
