@@ -4,7 +4,11 @@ export const Container = styled.section`
   height: auto;
   width: 100%;
   margin-top: 4rem;
-  padding: 3rem 0.4rem;
+  padding: 3rem 0;
+  @media screen and (max-width: 1024px) {
+    margin-top: 2rem;
+    padding: 2rem 0;
+  }
 `;
 export const ProdContainer = styled.div`
   border-radius: 14px;
@@ -15,8 +19,8 @@ export const ProdContainer = styled.div`
   height: 277px;
   width: 333px;
   @media screen and (max-width: 500px) {
-    height: 250px;
-    width: 333px;
+    height: 220px;
+    width: 322px;
   }
 `;
 export const Prod = styled.img`
