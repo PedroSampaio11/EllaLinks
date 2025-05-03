@@ -1,7 +1,7 @@
 import { BannerSection } from "../Banner";
 import { LinksSection } from "../Links";
-import { ProductsSection } from "../Products";
-import { ServicesSection } from "../Services";
+// import { ProductsSection } from "../Products";
+// import { ServicesSection } from "../Services";
 import {
   Design,
   MainContainer,
@@ -18,7 +18,7 @@ export const Main: React.FC = () => {
         <TitleContainer>
           <Title>Bem-vinda à Ella by essence</Title>
           <Sub>
-            Elegância, cuidado e essência nos
+             Brilho, Cuidado e Essência nos
             <strong> links abaixo</strong>
           </Sub>
         </TitleContainer>
@@ -26,8 +26,8 @@ export const Main: React.FC = () => {
         <Design src="/images/design12.png" />
       </PrincipalContainer>
       <LinksSection />
-      <ServicesSection />
-      <ProductsSection />
+      {/* <ServicesSection />
+      <ProductsSection /> */}
       <BannerSection/>
     </MainContainer>
   );

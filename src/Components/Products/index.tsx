@@ -3,7 +3,7 @@ import { Container, Prod, ProdContainer } from "./styles";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import { OTHERIMAGES } from "../constants/otherImages";
-const animation = { duration: 8800, easing: (t: number) => t }; // Duração reduzida
+const animation = { duration: 8100, easing: (t: number) => t }; // Duração reduzida
 
 export const ProductsSection: React.FC = () => {
   const [sliderRef] = useKeenSlider<HTMLDivElement>({
@@ -30,7 +30,7 @@ export const ProductsSection: React.FC = () => {
       "(max-width: 480px)": {
         slides: {
           perView: 1,
-          spacing: 14, // Ajustado para um espaçamento menor
+          spacing: 16, // Ajustado para um espaçamento menor
         },
       },
     },
