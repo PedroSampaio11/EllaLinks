@@ -36,8 +36,7 @@ const Container = styled.section`
 const BannerImage = styled.img`
   width: 100%;
   margin-top: 7rem;
-  border-top-left-radius: 14px;
-  border-top-right-radius: 14px;
+  border-radius: 14px;
   object-fit: cover;
   box-shadow: 0 0 22px 2px rgba(220, 4, 105, 0.555);
 
