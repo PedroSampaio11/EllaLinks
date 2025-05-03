@@ -12,10 +12,10 @@ export const Footer: React.FC = () => {
   return (
     <FooterContainer>
       <Links>
-        <Link>
+        <Link href="https://wa.me/5511941253548" target="_blank" rel="noopener noreferrer">
           <Icon src="/icons/whatsapp.svg"/>
         </Link>
-        <Link>
+        <Link href="https://www.instagram.com/ellaoficiall_" target="_blank" rel="noopener noreferrer">
           <Icon src="/icons/instagram.svg"/>
         </Link>
       </Links>
