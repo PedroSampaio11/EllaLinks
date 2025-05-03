@@ -13,15 +13,15 @@ export const Footer: React.FC = () => {
     <FooterContainer>
       <Links>
         <Link href="https://wa.me/5511941253548" target="_blank" rel="noopener noreferrer">
-          <Icon src="/icons/whatsapp.svg"/>
+          <Icon src="/icons/whatsapp.svg" />
         </Link>
         <Link href="https://www.instagram.com/ellaoficiall_" target="_blank" rel="noopener noreferrer">
-          <Icon src="/icons/instagram.svg"/>
+          <Icon src="/icons/instagram.svg" />
         </Link>
       </Links>
       <Copys>
-        <Copy>© Ella 2025. Todos os direitos reservados.</Copy>
-        <LinkFour>Desenvolvido por <strong>FourCoders</strong></LinkFour>
+        <Copy >© Ella 2025. Todos os direitos reservados.</Copy>
+        <LinkFour >Desenvolvido por <strong>FourCoders</strong></LinkFour>
       </Copys>
     </FooterContainer>
   );

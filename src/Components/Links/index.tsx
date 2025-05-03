@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const LinksSection: React.FC = () => {
   return (
     // data-aos="zoom-in"
-    <Container>
-      <Links>
+    <Container data-aos="fade-up" data-aos-duration="500">
+      <Links >
         <Link
           onClick={() =>
             window.open(
@@ -20,6 +20,7 @@ export const LinksSection: React.FC = () => {
           onClick={() =>
             window.open("https://www.instagram.com/ellaoficiall_", "_blank")
           }
+          
         >
           Catálogo de <strong>Produtos</strong>
         </Link>
