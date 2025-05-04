@@ -21,7 +21,7 @@ export const Footer: React.FC = () => {
       </Links>
       <Copys>
         <Copy >© Ella 2025. Todos os direitos reservados.</Copy>
-        <LinkFour >Desenvolvido por <strong>FourCoders</strong></LinkFour>
+        <LinkFour href="https://www.fourcoders.com" target="_blank" rel="noopener noreferrer" >Desenvolvido por <strong>FourCoders</strong></LinkFour>
       </Copys>
     </FooterContainer>
   );
