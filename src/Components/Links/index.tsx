@@ -4,7 +4,7 @@ export const LinksSection: React.FC = () => {
   return (
     // data-aos="zoom-in"
     <Container data-aos="fade-up" data-aos-duration="500">
-      <Links >
+      <Links>
         <Link
           onClick={() =>
             window.open(
@@ -18,9 +18,12 @@ export const LinksSection: React.FC = () => {
         </Link>
         <Link
           onClick={() =>
-            window.open("https://www.instagram.com/ellaoficiall_", "_blank")
+            window.open(
+              "https://wa.me/5511941253548?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20ver%20o%20catálogo%20de%20joias.",
+              "_blank",
+              "_blank"
+            )
           }
-          
         >
           Catálogo de <strong>Produtos</strong>
         </Link>
